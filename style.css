@@ -24,7 +24,7 @@ h2{
 }
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: linear-gradient(135deg, #ff1100 0%, #278ef5 25%, #8c00ff 50%, #19f3f3 75%, #d110eb 100%);
+    background: linear-gradient(135deg, #ff1100 0%, #278ef5 25%, #8c00ff 50%, #19f3f3 75%, #d110eb 100%);
     color: aliceblue;
     line-height: 1.7;
     min-height: 100vh;
@@ -32,11 +32,18 @@ body{
     flex-direction: column;
 }
 header{
-    background-color: linear-gradient(135deg, #d110eb 0%, #7bf319 40%, #e7da19 80%, #f13326 100%);
+    background: linear-gradient(135deg, #d110eb 0%, #7bf319 40%, #e7da19 80%, #f13326 100%);
     padding: 2rem 1rem;
     text-align: center;
     border-bottom: 3px solid #d110ed;
     color: antiquewhite;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer{
+    background: linear-gradient(135deg, #00A1E4 0%, #ffffff 50%, #00a859 100%);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
 }
